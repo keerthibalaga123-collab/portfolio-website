@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio Projects">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | John Doe</title>
+</head>
+
+<body>
+
+<header>
+    <h1>Projects</h1>
+
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html" aria-current="page">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section aria-labelledby="projects-heading">
+
+<h2 id="projects-heading">Featured Projects</h2>
+
+<article>
+    <h3>Machine Learning Prediction System</h3>
+    <p>
+        Developed a predictive model using Python and Scikit-learn.
+    </p>
+</article>
+
+<article>
+    <h3>Responsive Portfolio Website</h3>
+    <p>
+        Created an accessible and SEO-friendly portfolio.
+    </p>
+</article>
+
+<article>
+    <h3>IoT Smart Monitoring System</h3>
+    <p>
+        Designed an embedded monitoring solution using sensors.
+    </p>
+</article>
+
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 John Doe</p>
+</footer>
+
+</body>
+</html>

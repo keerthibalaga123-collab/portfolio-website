@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal Portfolio of John Doe - Web Developer, Designer, and Engineer">
+    <meta name="keywords" content="Portfolio, Web Developer, HTML5, CSS3, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="John Doe Portfolio">
+    <meta property="og:description" content="Explore projects, skills, and contact information.">
+    <meta property="og:type" content="website">
+
+    <title>John Doe | Portfolio</title>
+</head>
+
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
+    <header role="banner">
+        <h1>John Doe Portfolio</h1>
+
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+        <section aria-labelledby="hero-heading">
+            <h2 id="hero-heading">Welcome</h2>
+            <p>
+                I am a web developer passionate about creating
+                accessible and user-friendly websites.
+            </p>
+        </section>
+
+        <section aria-labelledby="skills-heading">
+            <h2 id="skills-heading">Skills</h2>
+
+            <article>
+                <h3>Frontend Development</h3>
+                <p>HTML5, CSS3, JavaScript, React</p>
+            </article>
+
+            <article>
+                <h3>Backend Development</h3>
+                <p>Node.js, Express, SQL</p>
+            </article>
+        </section>
+
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2026 John Doe. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
